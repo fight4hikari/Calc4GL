@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+	<title>Caclc</title>
+	<link rel="stylesheet" type="text/css" href="colours.css">
+	<link rel="shortcut icon" href="soslow.ico" type="image/x-icon">
+	<script src="getChar.js"></script>
+	<script charset="utf-8" type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="outer">
+		<input type="text" name="calculated" value="0">
+			<div class="inner">
+				<button type="button" class="opsButtons">(</button>
+				<button type="button" class="opsButtons">)</button>
+				<button type="button" class="c" onclick="ce()">C</button>
+				<button type="button" class="c" onclick="c()"><</button>
+				<button type="button" class="numberButtons">1</button>
+				<button type="button" class="numberButtons">2</button>
+				<button type="button" class="numberButtons">3</button>
+				<button type="button" class="opsButtons">+</button>
+				<button type="button" class="numberButtons">4</button>
+				<button type="button" class="numberButtons">5</button>
+				<button type="button" class="numberButtons">6</button>
+				<button type="button" class="opsButtons">-</button>
+				<button type="button" class="numberButtons">7</button>
+				<button type="button" class="numberButtons">8</button>
+				<button type="button" class="numberButtons">9</button>
+				<button type="button" class="opsButtons">/</button>
+				<button type="button" class="opsButtons">.</button>
+				<button type="button" class="numberButtons">0</button>
+				<button type="button" class="resultButtons" onclick="result()">=</button>
+				<button type="button" class="opsButtons"">*</button>
+			</div>
+	</div>
+</div>
+</body>
+</html>
